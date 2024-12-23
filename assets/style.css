@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root{
+  --Charleston_Green: #212832;
+  --Yankees_Blue: #14183E;
+  --Jelly_Bean: #DF6951;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 50px 100px;
+  
+}
+.sign{
+  border: 1px solid var(--Charleston_Green);
+  padding: 9px 22px;
+  border-radius: 5px;
+}
+nav ul{
+  display: flex;
+  text-align: center;
+}
+nav ul li {
+  list-style-type: none;
+  padding-right: 50px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: var(--Charleston_Green);
+}
+a:hover{
+  color: var(--Jelly_Bean);
+}
+nav img{
+  width: 114px;
+  height: 33px;
+}
